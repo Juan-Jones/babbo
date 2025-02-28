@@ -4,3 +4,4 @@
 
 [context.production.environment]
   HUGO_VERSION = "0.124.1"
+  GIT_SUBMODULE_STRATEGY = "recursive"
