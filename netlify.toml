@@ -1,14 +1,17 @@
 [build]
   publish = "public"
-  command = "hugo --gc --minify"
+  command = "curl -sSL https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.deb -o hugo.deb && sudo dpkg -i hugo.deb && hugo --gc --minify"
 
 [context.production.environment]
   HUGO_VERSION = "0.124.1"
-  HUGO_ENV = "production"
-  HUGO_ENABLEGITINFO = "true"
+  HUGO_THEME = "repo"
+  HUGO_BASEURL = "/"
 
-[context.deploy-preview]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+[[headers]]
+  for = "/*" # This defines which paths this specific [[headers]] block will cover.
 
-[context.branch-deploy]
-  command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
+[headers.values]
+  X-Frame-Options = "DENY"
+  X-XSS-Protection = "1; mode=block"
+  Referrer-Policy = "same-origin"
+  Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
