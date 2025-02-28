@@ -1,0 +1,3 @@
+[submodule "themes/bestwes"]
+	path = themes/bestwes
+	url = https://github.com/juan-jones/bestwes.git
