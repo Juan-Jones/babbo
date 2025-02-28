@@ -1,14 +1,7 @@
 [build]
   publish = "public"
-  command = "curl -sSL https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.deb -o hugo.deb && sudo dpkg -i hugo.deb && hugo --gc --minify"
+  command = "hugo --gc --minify --config config.toml"
 
 [context.production.environment]
   HUGO_VERSION = "0.124.1"
-  HUGO_ENABLEGITINFO = "true"
-
-
-[context.deploy-preview]
-  command = "curl -sSL https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.deb -o hugo.deb && sudo dpkg -i hugo.deb && hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy]
-  command = "curl -sSL https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.deb -o hugo.deb && sudo dpkg -i hugo.deb && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  HUGO_ENV = "production"
