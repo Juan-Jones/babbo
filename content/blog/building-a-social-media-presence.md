@@ -6,7 +6,7 @@ excerpt: 'Key strategies for building a strong social media presence to boost yo
 publishDate: '2019-05-05T00:00:00'
 author: Dejuan Jones
 date: '2019-05-05T00:00:00'
-heroImage: '../../assets/images/social-media-building.jpg'
+image: '/img/social-media-building.jpg'
 category: ['Social Media']
 tags:
   - Growth
