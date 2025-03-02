@@ -2,10 +2,10 @@
 layout: post
 title: 'Best Affiliate Programs'
 description: 'Find the best affiliate programs on the internet to make money.'
-excerpt: 
-publishDate: 'Mar 03 2020'
+excerpt: 'Find the best affiliate programs on the internet to make money.'
+publishDate: '2020-03-03T15:00:00'
 author: Dejuan Jones
-date:
+date: '2020-03-03T15:00:00'
 image: '/img/affiliate-programs.jpg'
 category: ['Monetizing']
 tags:

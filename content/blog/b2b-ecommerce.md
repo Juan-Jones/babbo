@@ -2,10 +2,10 @@
 layout: post
 title: 'Components of B2B Ecommerce'
 description: 'Unlock B2B eCommerce potential with tailored solutions, streamlining transactions and fostering collaboration.'
-excerpt: 
-publishDate: 'Nov 02 2020'
+excerpt: 'Unlock B2B eCommerce potential with tailored solutions, streamlining transactions and fostering collaboration.'
+publishDate: '2020-11-02T15:00:00'
 author: Dejuan Jones
-date:
+date: '2020-11-02T15:00:00'
 image: '/img/business-to-business-ecommerce.jpg'
 category: ['Ecommerce']
 tags:

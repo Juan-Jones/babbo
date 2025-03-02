@@ -13,7 +13,7 @@ tags:
 slug: 'creative-side-hustles'
 ---
 
-These days, the opportunities to supplement your income are endless. You can get paid for just about anything—from shopping for others to sharing your thoughts as an influencer or even running an e-commerce store through dropshipping. We have witnessed several _creative side hustle ideas_ not only develop but succeed at a rapid rate, thanks to the evolving digital economy.
+These days, the opportunities to supplement your income are endless. You can get paid for just about anything—from shopping for others to sharing your thoughts as an influencer or even running an e-commerce store through dropshipping. We have witnessed several creative _side hustle ideas_ not only develop but succeed at a rapid rate, thanks to the evolving digital economy.
 
 At its core, starting a side hustle boils down to identifying a niche, dedicating yourself to the task, and executing with consistency. For some, it seems effortless—pick an idea, put in the work, and boom, they’re up and running. But what about the rest of us? The average individual juggling a full-time job, family responsibilities, or limited time? Can anyone really get paid from a side hustle?
 
